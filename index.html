@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Schedule</title>
+</head>
+<body>
+<h1>My Schedule</h1>
+<form>
+    <fieldset>
+        <legend>Choose a day to view the schedule</legend>
+
+        <input type="radio" name="dayOfWeek" id="monday" value="monday" checked="checked">
+        <label class="block" for="monday">Monday</label>
+        <br>
+
+        <input type="radio" name="dayOfWeek" id="tuesday" value="tuesday">
+        <label class="block" for="tuesday">Tuesday</label>
+        <br>
+
+        <input type="radio" name="dayOfWeek" id="wednesday" value="wednesday">
+        <label class="block" for="wednesday">Wednesday</label>
+        <br>
+
+        <input type="radio" name="dayOfWeek" id="thursday" value="thursday">
+        <label class="block" for="thursday">Thursday</label>
+        <br>
+
+        <input type="radio" name="dayOfWeek" id="friday" value="friday">
+        <label class="block" for="friday">Friday</label>
+        <br>
+
+        <input type="radio" name="dayOfWeek" id="saturday" value="saturday">
+        <label class="block" for="saturday">Saturday</label>
+        <br>
+
+        <input type="radio" name="dayOfWeek" id="sunday" value="sunday">
+        <label class="block" for="sunday">Sunday</label>
+        <br>
+    </fieldset>
+    <button>Submit</button>
+</form>
+
+<p id="event1"></p>
+<p id="event2"></p>
+
+
+<!--Script tags go here -->
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="schedule.js"></script>
+
+</body>
+</html>
